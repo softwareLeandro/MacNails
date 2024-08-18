@@ -35,18 +35,19 @@
 
 .lista-servicos li {
     padding: 8px;
-    text-transform: lowercase;
+    /* text-transform: uppercase; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 12px;
 }
 
+
 .lista-servicos ul span {
     text-align: right;
-    display: flex;
+    display: inline;
     color: var(--cor-4);
-    text-transform: uppercase;
+    text-transform: none;
 } 
 
 @media (max-width: 650px) {
